@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@astrojs/mdx": "latest",
+        "@astrojs/netlify": "^5.2.0",
         "@astrojs/partytown": "latest",
         "@astrojs/rss": "latest",
         "@astrojs/sitemap": "latest",
