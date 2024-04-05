@@ -1,6 +1,6 @@
 ---
 title: Solid calendar App Analysis
-pubDate: 1921-01-10
+pubDate: 2023-04-04
 categories: ['Tech']
 tags: ['solid','github']
 description: ''
