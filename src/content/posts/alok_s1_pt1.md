@@ -4,6 +4,7 @@ pubDate: 2024-04-19
 categories: ['Fiction']
 tags: ['atla', 'musings', 'legend of korra']
 description: 'My thoughts on the start of Legend of Korra'
+draft: true
 ---
 
 # Legend of Korra in 2024 

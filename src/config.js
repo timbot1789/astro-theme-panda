@@ -2,7 +2,7 @@ export const PandaConfig = {
     title: 'Timbot',
     description: 'A Caffeinated Coder',
     start: '2024',
-    site: 'https://astro-theme-panda.vercel.app/',
+    site: 'https://timstand.xyz',
     defaultLocale: 'en',
     navbar: [
         // {title: 'Posts', url: '/'}, // auto generated
