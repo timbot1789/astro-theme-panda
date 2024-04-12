@@ -6,7 +6,7 @@ tags: ['project management', 'coding']
 description: ''
 ---
 
-This is a document I wrote for an open source project I am managing. I hope other people may find it useful.
+This is a document I wrote for an open source project I am managing. I hope other people may find it useful. These standards are for a group of about a dozen developers of varying experience levels. Larger groups with larger codebases likely need stricter standards. Smaller groups with greenfield codebases may be able to get by with looser standards.
 
 # Do Not Harm the Code
 New code must improve the codebase.
@@ -24,7 +24,7 @@ New code must improve the codebase.
 7. Respond to any feedback you receive from reviewers in a timely manner.
 8. Once you have one approval and no change requests, you may squash and merge your code into Development. Congratulations! You have meaningfully improved the project.
 
-If you have any questions, like you don't understand why a certain test is failing, or you don't know who to request reviews from, feel free to reach out on Discord in the PASS Developers thread.
+If you have any questions, like you don't understand why a certain test is failing, or you don't know who to request reviews from, reach out.
 
 ### Tips
 - **Focus your PR on one feature or bug**. Your goal is to demonstrate that your code works. That's easiest to do if all your changes are related to one thing
@@ -41,7 +41,7 @@ Additionally, we run test coverage checks on the system. We do not require 100% 
 ## Code Review Process
 ##### What to do if you're reviewing a code change
 
-You do not need to review PRs that do not pass the automated tests.[^3]
+You do not need to review PRs that do not pass the automated tests.
 
 1. Learn _what_ the PR does. Make behavior understandable.
     1. **Understand the problem this PR is trying to solve.** Why is the PR necessary? Is it fixing a bug? Adding a desired feature? Refactoring code? Responding to an Issue? If there's an Issue, read it and any comments on it. Is the problem a meaningful issue worth solving? If you don't understand the problem, ask the creator to describe it more.
@@ -64,13 +64,12 @@ You do not need to review PRs that do not pass the automated tests.[^3]
 - **Don't use PR review to discuss broad design goals.** Use Issues for that. If you notice a complex PR with no attached issue, ask the creator to make an issue too, and describe things there. This provides you a more flexible forum to talk about design without getting bogged down in code. Simple PRs where the problem and solution is obvious don't need issues.
 
 ### Closing PRs
-PASS is a public project that receives submissions of varying qualities. It is possible to receive a PR that cannot be improved through normal review, and it is best to close the PR to start again. This should only happen if a PR is fundamentally flawed in some unfixable way, or if the creator seems to have abandoned the PR without fixing its issues. Some examples of when this could happen:
+Open Source projects by their nature receive submissions of varying qualities. It is possible to receive a PR that cannot be improved through normal review, and it is best to close the PR to start again. This should only happen if a PR is fundamentally flawed in some unfixable way, or if the creator seems to have abandoned the PR without fixing its issues. Some examples of when this could happen:
 1. The PR is clearly spam from a robot.
 2. The PR contains no changes.
-5. The PR has fixable bugs, but the PR creator has not responded to comments on github or discord for several weeks. The work on that branch may be reopened under a new owner.
-3. The PR is based off a very old version of PASS, and the changes aren't compatible with the current version.
+5. The PR has fixable bugs, but the PR creator has not been active for several weeks. The work on that branch may be reopened under a new owner.
+3. The PR is based off an old version, and the changes aren't compatible with the current version.
 4. The PR is a duplicate. It copies work or features already implemented by another PR.
-6. The PR changes are fundamentally incompatible with PASS's goals and mission. e.g. a PR titled "Remove SOLID, replace with a PostGRES server hosted on Google Cloud".
 
 If a PR meets these requirements, close with a comment explaining why it must be closed, and how the PR creator can improve their next submission. **If the creator is a project member, try contacting them before closing the PR yourself.**
 
@@ -83,5 +82,4 @@ Recommended reading on PR review processes, for both contributors and reviewers:
 
 
 [^1]: If this is your first time contributing to the project, you will need a maintainer to start the automated tests for you. You can run all automated tests locally. It is highly recommended that you do so _before_ pushing your PR.
-[^2]: More complex React behaviors, or new behaviors added to existing components, may require more tests.
-[^3]: An exception is for a PR by a new contributor. Their PRs are not allowed to trigger actions by default. If you see a new contributor's PR, glance over it to check that it's broadly OK. Then approve the test run. After the tests pass, continue your review.
+[^2]: More complex behaviors, or new behaviors added to existing code, may require more tests.
