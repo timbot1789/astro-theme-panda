@@ -1,6 +1,6 @@
 ---
 title: Avatar The Legend Of Korra Season 1 Part 1 
-pubDate: 2024-04-09
+pubDate: 2024-04-19
 categories: ['Fiction']
 tags: ['atla', 'musings', 'legend of korra']
 description: 'My thoughts on the start of Legend of Korra'

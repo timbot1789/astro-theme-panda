@@ -1,4 +1,3 @@
-## I'm a guy with a computer 
+## Hi! I'm Tim 
 
-You probably shouldn't let me have one.
-I'm going to break it. 
+I'm a software engineer out of Portland, Oregon. I do a lot of work on distributed data, data transparency, and interoperability.
